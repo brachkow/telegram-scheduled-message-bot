@@ -1,0 +1,6 @@
+name = "telegram-scheduled-message-bot"
+main = "src/index.ts"
+compatibility_date = "2024-05-11"
+
+[triggers]
+crons = [ "0 0 * * *" ]

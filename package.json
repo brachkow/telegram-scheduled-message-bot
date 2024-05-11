@@ -1,0 +1,14 @@
+{
+  "name": "telegram-scheduled-message-bot",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240502.0",
+    "typescript": "^5.4.5",
+    "wrangler": "3.55.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler --test-scheduled --port 8000 dev",
+    "deploy": "wrangler deploy"
+  }
+}
