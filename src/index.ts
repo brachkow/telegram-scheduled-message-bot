@@ -13,6 +13,6 @@ export default {
   ): Promise<void> {
     const bot = new Bot(env.BOT_TOKEN);
 
-    bot.api.sendMessage(env.CHAT_ID, 'Hello World!');
+    await bot.api.sendMessage(env.CHAT_ID, 'Hello World!');
   },
 };
