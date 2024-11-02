@@ -1,3 +1,7 @@
+> [!WARNING]  
+> This repository is now archived, because I decided to create a single repo for all my small automation oriented telegram bots:
+> https://github.com/brachkow/nanobots
+
 # Scheduled message bot for Telegram
 
 Template to create bot's that send you notification based on cronjob
